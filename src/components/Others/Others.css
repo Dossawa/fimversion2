@@ -1,6 +1,20 @@
 .slide{
-    width: 95%;
+    width: 100%;
     padding: 1rem;
     background-color: #fff;
     margin: 0 auto;
+}
+
+
+/* RESPONSIVE *******************************************/
+
+@media (max-width: 400px) { 
+
+   .slide>{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        margin:0 auto;
+    }
+
 }

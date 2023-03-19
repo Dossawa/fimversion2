@@ -44,20 +44,23 @@ button{
     flex-direction: column;
 }
 .sol-img>div>img{
-    height: 380px;
+    height: 290px;
     width: 340px;
-    object-fit: cover;
+    box-shadow: 1px 2px 9px #70a1ff;
+    border-radius: 3px;
+    padding: 1em;
+    object-fit:cover;
     border: none;
 }
 .sol-img>div>span{
     margin-top: .5rem;
     font-size: 16px;
-    color:#D35400;
+    color: black;
 }
 
 /* RESPONSIVE *******************************************/
 
-@media (max-width: 480px) { 
+@media (max-width: 600px) { 
 .sol-img{
     display: flex;
     flex-direction: column;
@@ -68,6 +71,12 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.sol-img>div>span{
+    margin-top: .5rem;
+    font-size: 16px;
+    color: black;
 }
 
  }

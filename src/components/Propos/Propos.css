@@ -1,6 +1,7 @@
 .propos{
     max-width: 98%;
     margin: 0 auto;
+    background-color: ghostwhite;
 }
 .box{
     display: flex;
@@ -8,30 +9,56 @@
     gap: 2rem;
     margin: 0 auto;
 }
-.box1{
-    display: grid;
-    gap: .5rem;
-    grid-template-columns: repeat(2,1fr); 
+.box1, .box2{
+   display: flex;
+   gap: 2rem;
+   background-color: #1e90ff;
 }
 .b1{
-    margin-top: 180px;
-}
-.box2{
-    display: grid;
-    gap: .5rem;
-    grid-template-columns: repeat(2,1fr);
+    height: 400px;
+    flex: 1;
 }
 .b2{
-    margin-top: 180px;
+    display: flex;
+    flex: 1;
 }
+
+
 .box-content{
     display: flex;
+    flex: 1;
     flex-direction: column;
     gap: .5rem;
     justify-content: center;
     align-items: center;
-    height: 340px;
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
     object-fit: cover;
     color: #fff;
-    background-color: #2E86C1;
 }
+.videoTag2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 0;
+}
+
+/* RESPONSIVE *******************************************/
+
+@media (max-width: 600px) { 
+    .propos{
+        max-width: 90%;
+    }
+    .box1, .box2{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-content{
+        width: 90%;
+    }
+    .videoTag2{
+        width: 100%;
+    }
+
+}    

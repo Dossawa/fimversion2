@@ -34,7 +34,7 @@ const Formulaire = () => {
       };
 
   return (
-    <div className='formulaire'>
+    <div className='formulaire' id='formulaire'>
     <p>Nous contactez à travers ce formulaire. Nous reprendrons contact
     avec vous rapidement afin de vous fournir le meilleur service</p>
         <Form onSubmit={handleOnSubmit}>

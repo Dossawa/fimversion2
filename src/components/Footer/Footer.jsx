@@ -9,7 +9,7 @@ export default function App() {
     <MDBFooter className='text-center text-lg-start text-muted footer'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block text-white'>
-          <span>Get connected with us on social networks:</span>
+          <span>Prenez contact avec nous sur les réseaux sociaux :</span>
         </div>
 
         <div>
@@ -50,18 +50,18 @@ export default function App() {
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Réseaux Sociaux</h6>
               <p>
-                <a href='#!' className='text-reset'>
-                  FACEBOOK
+                <a href='https://web.facebook.com/profile.php?id=100087452690420&mibextid=ZbWKwL&_rdc=1&_rdr' target={'_blank'} className='text-reset'>
+                  Facebook
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  INSTAGRAM
+                <a href='/' className='text-reset'>
+                  Instagram
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  LINKEDIN
+                <a href='https://www.linkedin.com/company/fim-fourniture-industrielle-et-maintenance/' target={'_blank'} className='text-reset'>
+                  LinkedIn
                 </a>
               </p>
             </MDBCol>
@@ -69,40 +69,34 @@ export default function App() {
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Liens vers</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/' className='text-reset'>
                   Accueil
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='#propos' className='text-reset'>
                   A propos
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='#produits' className='text-reset'>
                   Services
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Produits
                 </a>
               </p>
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>ADRESSE</h6>
               <p>
-                <MDBIcon icon="home" className="me-2" />
-                Youpougon - Cité Bel air du banco
+                Yopougon - Cité Bel air du banco
               </p>
-              <p>08 BP 2799 Abidjan 08</p>
               <p>
-                <MDBIcon icon="envelope" className="me-3" />
+              08 BP 2799 Abidjan 08
+              </p>
+              <p>
                 Email :  directionfim9@gmail.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" />
                 Tel : +225 05 05 40 61 72
               </p>
             

@@ -2,8 +2,9 @@ import React from 'react'
 import './Others.css'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import piscine from './../../assets/piscine.jpg'
+import codjet7 from './../../assets/codjet7.png'
 import scotcheuse from './../../assets/scotcheuse.jpg'
+import cartouche from './../../assets/cartouche.jpg'
 const Others = () => {
   return (
     <div>
@@ -14,56 +15,56 @@ const Others = () => {
 <Slide slidesToScroll={1} slidesToShow={1} indicators={true}>
     <div style={{
 display: 'flex',
+margin:'0 auto',
 alignItems: 'center',
 justifyContent: 'center',
 background: 'transparent',
-backgroundImage : `url(${piscine})`,
+backgroundImage : `url(${cartouche})`,
 backgroundPosition : 'center',
 backgroundRepeat : "no-repeat",
-margin: "0 auto",
 backgroundSize: "contain",
 height :'200px',
-width : '400px',
+width : 'auto',
 fontSize: '30px'
 }}></div>
     <div style={{
 display: 'flex',
+margin:'0 auto',
 alignItems: 'center',
-alignContent: 'center',
+justifyContent:"center",
 backgroundImage : `url(${scotcheuse})`,
 backgroundPosition : 'center',
 backgroundRepeat : "no-repeat",
-margin: "0 auto",
 backgroundSize: "contain",
 height :'200px',
-width : '400px',
+width : 'auto',
 fontSize: '30px'
 }}/>
     <div style={{
-display: 'flex',
+display:'flex',
+margin:'0 auto',
 alignItems: 'center',
-alignContent: 'center',
-backgroundImage : `url(${piscine})`,
+justifyContent:"center",
+backgroundImage : `url(${codjet7})`,
 backgroundPosition : 'center',
 backgroundRepeat : "no-repeat",
-margin: "0 auto",
 backgroundSize: "contain",
 height :'200px',
-width : '400px',
+width : 'auto',
 fontSize: '30px'
 }}/>
     <div style={{
 display : 'flex',
+margin:'0 auto',
 alignItems: 'center',
 justifyContent: 'center',
 textAlign: 'center',
-backgroundImage : `url(${piscine})`,
+backgroundImage : `url(${cartouche})`,
 backgroundPosition : 'center',
 backgroundRepeat : "no-repeat",
-margin: "0 auto",
 backgroundSize: "contain",
 height :'200px',
-width : '400px',
+width : 'auto',
 fontSize: '30px'
 }}/>
  

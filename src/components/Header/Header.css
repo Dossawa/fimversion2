@@ -9,7 +9,7 @@ img{
     justify-content: center;
     align-items: center;
     background-color: white;
-    color: #2E86C1;
+    background-color: #2E86C1;
     height: 6rem;
     position: relative;
 }
@@ -67,7 +67,8 @@ flex: 1;
     padding: 0;
   }
   .navigation-menu li {
-    
+    font-weight: 800;
+    font-size: 1.3rem;
     list-style-type: none;
     margin: 0 1rem;
   }
@@ -76,6 +77,9 @@ flex: 1;
     text-decoration: none;
     display: block;
     width: 100%;
+  }
+  .navigation-menu li a:hover{
+    color: orangered;
   }
 
   .hamburger {
@@ -100,9 +104,11 @@ flex: 1;
   }
 
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
+
     .hamburger {
       display: block;
+     
     }
 
 
@@ -116,20 +122,18 @@ flex: 1;
         left: 0;
        
         flex-direction: column;
-       
+        cursor: pointer;
         width: 100%;
         height: calc(100vh - 77px);
         background-color: white;
         border-top: 1px solid black;
       }
       .navigation-menu li {
-        
         text-align: center;
         margin: 0;
       }
       .navigation-menu li a {
-        color: black;
-     
+        color: blue;
         width: 100%;
         padding: 1.5rem 0;
       }
@@ -143,8 +147,9 @@ flex: 1;
 
       .navigation-menu.expanded ul {
         display: block;
+        z-index: 2;
       }
-
+      
   }
 
   

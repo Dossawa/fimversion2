@@ -46,16 +46,16 @@ const Header = () => {
         className="navigation-menu">
         <ul>
           <li>
-            <a href="/home">Accueil</a>
+            <a href="/">Accueil</a>
           </li>
           <li>
-            <a href="/about">A propos</a>
+            <a href="#propos">A propos</a>
           </li>
           <li>
-            <a href="/contact">Produits</a>
+            <a href="#produits">Nos Solutions</a>
           </li>
           <li>
-            <a href="/contact">Prendre Contact</a>
+            <a href="#formulaire">Prendre Contact</a>
           </li>
         </ul>
       </div>
