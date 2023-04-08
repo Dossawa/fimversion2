@@ -3,7 +3,7 @@ import './Hero.css'
 import codjet2 from './../../videos/codjet2.mp4'
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className='hero' id='/'>
     <video className='videoTag' autoPlay loop muted>
     <source src={codjet2} type='video/mp4' />
     </video>
